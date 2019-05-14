@@ -21,7 +21,7 @@
 html {
   background: $light-grey;
   line-height: 1.6;
-  letter-spacing: .06em;
+  letter-spacing: .05em;
   scroll-behavior: smooth;
 }
 
@@ -53,6 +53,7 @@ pre {
   // -webkit-overflow-scrolling: touch;
 
   code {
+    color: #eee;
     padding: 0;
     margin: 0;
     background: $midnightblue;
@@ -60,8 +61,8 @@ pre {
 }
 
 code {
-  color: #eee;
-  background: $highlight-grey;
+  color: $midnightblue;
+  background: #eee;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -94,7 +95,7 @@ a {
   transition-timing-function: ease-out;
 
   &:hover {
-    color: #fff;
+    color: #000000;
   }
 }
 
@@ -133,7 +134,7 @@ table {
 }
 
 .thin {
-  max-width: 720px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -333,7 +334,7 @@ p.img-404 {
       }
 
       &:hover {
-        border-color: #fff;
+        border-color: #000000;
       }
 
       svg {
@@ -743,7 +744,7 @@ hr.post-end {
 
   #toc {
     top: 13em;
-    margin-left: 370px;
+    margin-left: 460px;
     max-width: 220px;
   }
 }
@@ -832,4 +833,8 @@ hr.post-end {
   #mobile-menu {
     right: 1.2em;
   }
+}
+
+.utterances {
+  max-width: 900px;
 }
